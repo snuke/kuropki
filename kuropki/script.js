@@ -13,6 +13,7 @@ $(function() {
 
   function go(pid) {
     url = 'http://pzv.jp/p.html?kropki/7/7/' + data[pid-1];
+    console.log(url);
     window.open(url);
     $('#pid').val(pid);
   }
